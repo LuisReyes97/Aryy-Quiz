@@ -1,6 +1,15 @@
 import { createApp } from 'vue'
+import App from './App.vue'
+
+createApp(App).mount('#app')
+
+
+
+/*
+import { createApp } from 'vue'
 import {createRouter, createWebHashHistory} from 'vue-router'
 import App from './App.vue'
+import router from './router'
 
 
 //DECLARAMOS LAS CONSTANTES
@@ -22,7 +31,9 @@ const router = createRouter({
   })
 
 //INSTANCIA DE vue
-  const app = Vue.createApp({})
-  app.use(router)
-  app.mount('#app')
+const app = Vue.createApp({}).use(router)
+app.use(router)
+app.mount('#app')
+
+*/
 
